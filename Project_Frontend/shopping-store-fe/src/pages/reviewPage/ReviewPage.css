@@ -1,0 +1,87 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.review-page {
+  padding: 20px;
+}
+
+.sorting-dropdown {
+  margin-bottom: 20px;
+}
+
+.sorting-dropdown label {
+  margin-right: 10px;
+}
+
+.sorting-dropdown select {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.page-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.add-review-button {
+  background-color: hotpink;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-review-button:hover {
+  background-color:  rgb(255, 65, 160);
+}
+
+.review-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.review-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-name {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.star-rating {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  color: yellow;
+  margin-right: 3px;
+}
+
+.review-comment {
+  margin-bottom: 10px;
+}
+
+.review-link {
+  text-decoration: none;
+  color: black;
+}
+
+.review-date {
+  font-style: italic;
+  color: #666;
+}

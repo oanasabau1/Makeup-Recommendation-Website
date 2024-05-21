@@ -1,0 +1,158 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+allowmixing
+class User {
+   -Long userId;
+   -String firstName;
+   -String lastName;
+   -String gender;
+   -LocalDate birthDate;
+   -String email;
+   -String phoneNumber;
+   -String address;
+   -String username;
+   -String password;
+   -Role userRole;
+   -boolean logged;
+
+}
+
+enum Role {
+    ADMIN,
+    CLIENT
+}
+
+class Review {
+    -Long reviewId;
+    -Product product;
+    -User user;
+    -int rating;
+    -String comment;
+    -LocalDateTime timestamp;
+    -void validateRating()
+
+}
+
+
+class Product {
+    -Long productId;
+    -String name;
+    -String description;
+    -String brand;
+    -Category category;
+    -User user;
+    -String imageUrl;
+}
+
+class Category {
+    -Long categoryId;
+    -String categoryName;
+}
+
+
+class UserMapper {
++UserDTO userEntityToDto(User user)
++List<UserDTO> userListEntityToDto(List<User> users)
+}
+
+class LoginDTO {
+    String username;
+    String password;
+}
+
+class Security {
+    +String encryptPassword(String password)
+    }
+
+
+class CorsConfig {
+    +FilterRegistrationBean<CorsFilter> corsFilter()
+}
+
+interface CategoryRepository extends JpaRepository<Category, Long> {
+    Category findByCategoryName(String categoryName);
+
+    }
+
+interface ProductRepository extends JpaRepository<Product, Long> {
+    Product findProductByName(String name);
+    List<Product> findProductsByCategoryName(String categoryName);
+    List<Product> findProductsByBrand(String brand);
+    }
+
+interface ReviewRepository extends JpaRepository<Review, Long> {
+    List<Review> findAllByProductId(Long productId);
+    List<Review> findAllByProductIdOrderByTimestampAsc(Long productId);
+    List<Review> findAllByProductIdOrderByTimestampDesc(Long productId);
+    List<Review> findAllByProductIdOrderByRatingAsc(Long productId);
+    List<Review> findAllByProductIdOrderByRatingDesc(Long productId);
+}
+
+interface UserRepository extends JpaRepository<User, Long> {
+    User findByUsername(String username);
+}
+
+class CategoryService {
+    -CategoryRepository categoryRepository;
+    +Category saveCategory(Category category)
+    +List<Category> saveAllCategories(List<Category> categories)
+    +List<Category> getAllCategories()
+}
+
+class EmailService {
+    -JavaMailSender mailSender;
+    +public void sendEmail(String to, String subject, String body)
+    }
+
+class ProductService {
+
+    -ProductRepository productRepository;
+    +Product saveProduct(Product product)
+    +List<Product> saveAllProducts(List<Product> products)
+    +Product getProductById(Long productId)
+    +List<Product> getAllProducts()
+    +Product getProductByName(String name)
+    +List<Product> getProductsByCategoryName(String categoryName)
+    +List<Product> getProductsByBrand(String brand)void saveProductsToFile(String format)
+    +Product updateProductDetails(Product product)
+    +String deleteProduct(Long productId)
+}
+
+
+class ReviewService {
+
+    -ReviewRepository reviewRepository;
+
+    +List<Review> getAllReviewsByProductId(Long productId)
+    +Review saveReview(Review review)
+    +Review getReviewById(Long reviewId)
+    +List<Review> sortReviewsByTimestampAsc(Long productId)
+    +List<Review> sortReviewsByTimestampDesc(Long productId)  +List<Review> sortReviewsByRatingAsc(Long productId)
+    +List<Review> sortReviewsByRatingDesc(Long productId)
+    +Review updateReview(Review review)
+    +String deleteReview(Long reviewId)
+}
+
+class UserService  {
+    - UserRepository userRepository;
+    -UserMapper userMapper;
+
+    +boolean findActive()
+    +User findLoggedUser()
+    +void setActiveUser(User user)
+    +boolean isAdminLogged()
+    +boolean isCurrentUserLogged(Long userId)
+    +User getUserById(Long userId)
+    +List<User> getUsers()
+    +List<UserDTO> getAllUserDto()
+    +User getUserByUsername(String username)
+    +User saveUser(User user)
+    +User registerUser(User user)
+    +void saveUsersDTOToFile(String format)
+    +User updateUserDetails(User updatedUser)
+    +boolean validateUserCredentials(String username, String password)
+}
+
+
+@enduml

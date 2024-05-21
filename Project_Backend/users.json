@@ -1,0 +1,72 @@
+[
+  {
+    "first_name": "Oana",
+    "last_name": "Sabau",
+    "gender": "Female",
+    "birth_date": "2003-01-08",
+    "email": "oanasabau1@gmail.com",
+    "address": "52 Fanate",
+    "phone_number": "0755810169",
+    "role": "ADMIN"
+  },
+  {
+    "first_name": "Gabriela",
+    "last_name": "Dobra",
+    "gender": "Female",
+    "birth_date": "2000-11-21",
+    "email": "dobragabrielamaria@gmail.com",
+    "address": "1 Oltului, Cluj-Napoca",
+    "phone_number": "0745871254",
+    "role": "CLIENT"
+  },
+  {
+    "first_name": "Yasmina",
+    "last_name": "Butisca",
+    "gender": "Female",
+    "birth_date": "2003-04-23",
+    "email": "butiscay@gmail.com",
+    "address": "3 Aluminei, Oradea",
+    "phone_number": "0725469781",
+    "role": "CLIENT"
+  },
+  {
+    "first_name": "Alexia",
+    "last_name": "Bitea",
+    "gender": "Female",
+    "birth_date": "2004-02-20",
+    "email": "biteaalexia20@gmail.com",
+    "address": "2 Crisan, Arad",
+    "phone_number": "0736985124",
+    "role": "CLIENT"
+  },
+  {
+    "first_name": "Emilia",
+    "last_name": "Gramada",
+    "gender": "Female",
+    "birth_date": "2003-08-22",
+    "email": "gramadaemilia@yahoo.com",
+    "address": "7 Tineretului, Nucet",
+    "phone_number": "0745200230",
+    "role": "CLIENT"
+  },
+  {
+    "first_name": "Cristian",
+    "last_name": "Pop",
+    "gender": "Male",
+    "birth_date": "1998-04-15",
+    "email": "popcristiflorin@gmail.com",
+    "address": "1 Oltului, Cluj-Napoca",
+    "phone_number": "0785417658",
+    "role": "CLIENT"
+  },
+  {
+    "first_name": "Bianca",
+    "last_name": "Dinis",
+    "gender": "Female",
+    "birth_date": "2002-07-23",
+    "email": "dinisbianca11@gmail.com",
+    "address": "34 Observatorului, Cluj-Napoca",
+    "phone_number": "0748217965",
+    "role": "CLIENT"
+  }
+]

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <object>
+    <first_name>Oana</first_name>
+    <last_name>Sabau</last_name>
+    <gender>Female</gender>
+    <birth_date>2003-01-08</birth_date>
+    <email>oanasabau1@gmail.com</email>
+    <address>52 Fanate</address>
+    <phone_number>0755810169</phone_number>
+    <role>ADMIN</role>
+  </object>
+  <object>
+    <first_name>Gabriela</first_name>
+    <last_name>Dobra</last_name>
+    <gender>Female</gender>
+    <birth_date>2000-11-22</birth_date>
+    <email>dobragabrielamaria@gmail.com</email>
+    <address>1 Oltului, Cluj-Napoca</address>
+    <phone_number>0745871254</phone_number>
+    <role>CLIENT</role>
+  </object>
+  <object>
+    <first_name>Yasmina</first_name>
+    <last_name>Butisca</last_name>
+    <gender>Female</gender>
+    <birth_date>2003-04-23</birth_date>
+    <email>butiscay@gmail.com</email>
+    <address>3 Aluminei, Oradea</address>
+    <phone_number>0725469781</phone_number>
+    <role>CLIENT</role>
+  </object>
+  <object>
+    <first_name>Alexia</first_name>
+    <last_name>Bitea</last_name>
+    <gender>Female</gender>
+    <birth_date>2004-02-20</birth_date>
+    <email>biteaalexia20@gmail.com</email>
+    <address>2 Crisan, Arad</address>
+    <phone_number>0736985124</phone_number>
+    <role>CLIENT</role>
+  </object>
+  <object>
+    <first_name>Emilia</first_name>
+    <last_name>Gramada</last_name>
+    <gender>Female</gender>
+    <birth_date>2003-08-22</birth_date>
+    <email>gramadaemilia@yahoo.com</email>
+    <address>7 Tineretului, Nucet</address>
+    <phone_number>0745200230</phone_number>
+    <role>CLIENT</role>
+  </object>
+  <object>
+    <first_name>Cristian</first_name>
+    <last_name>Pop</last_name>
+    <gender>Male</gender>
+    <birth_date>1998-04-15</birth_date>
+    <email>popcristiflorin@gmail.com</email>
+    <address>1 Oltului, Cluj-Napoca</address>
+    <phone_number>0785417658</phone_number>
+    <role>CLIENT</role>
+  </object>
+  <object>
+    <first_name>Bianca</first_name>
+    <last_name>Dinis</last_name>
+    <gender>Female</gender>
+    <birth_date>2002-07-23</birth_date>
+    <email>dinisbianca11@gmail.com</email>
+    <address>34 Observatorului, Cluj-Napoca</address>
+    <phone_number>0748217965</phone_number>
+    <role>CLIENT</role>
+  </object>
+</data>

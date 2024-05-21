@@ -1,0 +1,170 @@
+[
+  {
+    "productId": "1",
+    "name": "Firework Mascara",
+    "description": "The newest mascara from Maybelline. It does wonders!",
+    "brand": "Maybelline",
+    "category": "Mascara"
+  },
+  {
+    "productId": "2",
+    "name": "Matte Lipstick - Ruby Red",
+    "description": "Intensely pigmented matte lipstick in a stunning ruby red shade.",
+    "brand": "MAC Cosmetics",
+    "category": "Lips"
+  },
+  {
+    "productId": "3",
+    "name": "Pore Minimizing Primer",
+    "description": "Blurs imperfections and minimizes the appearance of pores for a smooth makeup application.",
+    "brand": "NYX Professional Makeup",
+    "category": "Primer"
+  },
+  {
+    "productId": "4",
+    "name": "Stay Matte Liquid Foundation",
+    "description": "Oil-free foundation that delivers full coverage with a matte finish that lasts all day.",
+    "brand": "Rimmel London",
+    "category": "Foundation"
+  },
+  {
+    "productId": "5",
+    "name": "Fit Me Concealer",
+    "description": "Lightweight concealer that camouflages imperfections and dark circles without creasing.",
+    "brand": "Maybelline",
+    "category": "Concealer"
+  },
+  {
+    "productId": "6",
+    "name": "Translucent Loose Setting Powder",
+    "description": "Ultra-fine setting powder that sets makeup for extended wear without caking.",
+    "brand": "Laura Mercier",
+    "category": "Powder"
+  },
+  {
+    "productId": "7",
+    "name": "Cream Contour Kit",
+    "description": "Cream-based contour kit with multiple shades for sculpting and defining facial features.",
+    "brand": "Anastasia Beverly Hills",
+    "category": "Contour"
+  },
+  {
+    "productId": "8",
+    "name": "Shimmering Skin Perfector Pressed Highlighter",
+    "description": "Highly pigmented highlighter that adds a radiant glow to the skin with a seamless finish.",
+    "brand": "BECCA Cosmetics",
+    "category": "Highlighter"
+  },
+  {
+    "productId": "9",
+    "name": "Brow Wiz",
+    "description": "Ultra-fine retractable pencil for precise filling and shaping of eyebrows.",
+    "brand": "Anastasia Beverly Hills",
+    "category": "Eyebrows"
+  },
+  {
+    "productId": "10",
+    "name": "Naked Heat Eyeshadow Palette",
+    "description": "A collection of 12 fiery eyeshadows ranging from warm browns to burnt oranges and rich siennas.",
+    "brand": "Urban Decay",
+    "category": "Eyeshadow"
+  },
+  {
+    "productId": "11",
+    "name": "Lash Sensational Mascara",
+    "description": "Volumizing mascara that captures and coats every lash for a full fan effect.",
+    "brand": "Maybelline",
+    "category": "Mascara"
+  },
+  {
+    "productId": "12",
+    "name": "Matte Lipstick - Rebel Rose",
+    "description": "Highly-pigmented matte lipstick with a comfortable, long-wearing formula.",
+    "brand": "Revlon",
+    "category": "Lips"
+  },
+  {
+    "productId": "13",
+    "name": "Hydrating Primer",
+    "description": "A moisturizing face primer that preps the skin for makeup application while providing hydration.",
+    "brand": "e.l.f. Cosmetics",
+    "category": "Primer"
+  },
+  {
+    "productId": "14",
+    "name": "Fit Me Dewy + Smooth Foundation",
+    "description": "Dewy foundation with SPF 18 that hydrates and smoothes skin texture for a luminous finish.",
+    "brand": "Maybelline",
+    "category": "Foundation"
+  },
+  {
+    "productId": "15",
+    "name": "Radiant Creamy Concealer",
+    "description": "Buildable concealer that corrects, contours, highlights, and perfects for radiant skin.",
+    "brand": "NARS Cosmetics",
+    "category": "Concealer"
+  },
+  {
+    "productId": "16",
+    "name": "Fit Me Matte + Poreless Powder",
+    "description": "Pressed powder that mattifies and sets makeup while blurring pores for a flawless finish.",
+    "brand": "Maybelline",
+    "category": "Powder"
+  },
+  {
+    "productId": "17",
+    "name": "Pro Contour Palette",
+    "description": "All-in-one contour palette with six velvety powder shades for sculpting and defining facial features.",
+    "brand": "LORAC Cosmetics",
+    "category": "Contour"
+  },
+  {
+    "productId": "18",
+    "name": "Precisely, My Brow Pencil",
+    "description": "Ultra-fine brow pencil with a spoolie brush for precise filling and shaping of eyebrows.",
+    "brand": "Benefit Cosmetics",
+    "category": "Eyebrows"
+  },
+  {
+    "productId": "19",
+    "name": "Modern Renaissance Eyeshadow Palette",
+    "description": "An essential eyeshadow palette featuring 14 warm and neutral shades in matte and shimmer finishes.",
+    "brand": "Anastasia Beverly Hills",
+    "category": "Eyeshadow"
+  },
+  {
+    "productId": "20",
+    "name": "Hoola Matte Bronzer",
+    "description": "Award-winning matte bronzer for a natural-looking tan and sculpted contour.",
+    "brand": "Benefit Cosmetics",
+    "category": "Contour"
+  },
+  {
+    "productId": "21",
+    "name": "Born This Way Foundation",
+    "description": "Oil-free foundation infused with coconut water and hyaluronic acid for a natural, radiant finish.",
+    "brand": "Too Faced",
+    "category": "Foundation"
+  },
+  {
+    "productId": "22",
+    "name": "Mary Lou Manizer",
+    "description": "Mary-Lou might not be innocent, but this shimmer sure is!",
+    "brand": "theBalm",
+    "category": "Highlighter"
+  },
+  {
+    "productId": "24",
+    "name": "Lip Pencil",
+    "description": "A lip liner pencil in a wide range of colours designed for shaping, lining or filling in lips.",
+    "brand": "MAC Cosmetics",
+    "category": "Lips"
+  },
+  {
+    "productId": "25",
+    "name": "Illuminating Primer",
+    "description": "A weightless, silicone-free, gel primer enriched with ultra-fine pearls for a lit-from-within glow.",
+    "brand": "Rare Beauty",
+    "category": "Primer"
+  }
+]

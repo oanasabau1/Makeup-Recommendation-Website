@@ -1,0 +1,50 @@
+.category-page {
+  background-image: url('https://wallpapers.com/images/hd/pink-makeup-1920-x-1080-wallpaper-hohnvf58kjat5lhd.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #fff;
+}
+
+.category-container {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif; /* Font style applied */
+}
+
+.error-message {
+  color: red;
+}
+
+.category-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.category-item {
+  margin-bottom: 70px;
+}
+
+.category-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  font-family: 'Poppins', sans-serif; /* Font style applied */
+}
+
+.category-link:hover {
+  color: hotpink;
+}

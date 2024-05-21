@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <object>
+    <productId>1</productId>
+    <name>Mascara Firework</name>
+    <description>The newest mascara from Maybelline. It does wonders!</description>
+    <brand>Maybelline</brand>
+    <category>Mascara</category>
+  </object>
+  <object>
+    <productId>2</productId>
+    <name>Matte Lipstick - Ruby Red</name>
+    <description>Intensely pigmented matte lipstick in a stunning ruby red shade.</description>
+    <brand>MAC Cosmetics</brand>
+    <category>Lips</category>
+  </object>
+  <object>
+    <productId>3</productId>
+    <name>Pore Minimizing Primer</name>
+    <description>Blurs imperfections and minimizes the appearance of pores for a smooth makeup application.</description>
+    <brand>NYX Professional Makeup</brand>
+    <category>Primer</category>
+  </object>
+  <object>
+    <productId>4</productId>
+    <name>Stay Matte Liquid Foundation</name>
+    <description>Oil-free foundation that delivers full coverage with a matte finish that lasts all day.</description>
+    <brand>Rimmel London</brand>
+    <category>Foundation</category>
+  </object>
+  <object>
+    <productId>5</productId>
+    <name>Fit Me Concealer</name>
+    <description>Lightweight concealer that camouflages imperfections and dark circles without creasing.</description>
+    <brand>Maybelline</brand>
+    <category>Concealer</category>
+  </object>
+  <object>
+    <productId>6</productId>
+    <name>Translucent Loose Setting Powder</name>
+    <description>Ultra-fine setting powder that sets makeup for extended wear without caking or settling into fine lines.</description>
+    <brand>Laura Mercier</brand>
+    <category>Powder</category>
+  </object>
+  <object>
+    <productId>7</productId>
+    <name>Cream Contour Kit</name>
+    <description>Cream-based contour kit with multiple shades for sculpting and defining facial features.</description>
+    <brand>Anastasia Beverly Hills</brand>
+    <category>Contour</category>
+  </object>
+  <object>
+    <productId>8</productId>
+    <name>Shimmering Skin Perfector Pressed Highlighter</name>
+    <description>Highly pigmented highlighter that adds a radiant glow to the skin with a seamless finish.</description>
+    <brand>BECCA Cosmetics</brand>
+    <category>Highlighter</category>
+  </object>
+  <object>
+    <productId>9</productId>
+    <name>Brow Wiz</name>
+    <description>Ultra-fine retractable pencil for precise filling and shaping of eyebrows.</description>
+    <brand>Anastasia Beverly Hills</brand>
+    <category>Eyebrows</category>
+  </object>
+  <object>
+    <productId>10</productId>
+    <name>Naked Heat Eyeshadow Palette</name>
+    <description>A collection of 12 fiery eyeshadows ranging from warm browns to burnt oranges and rich siennas.</description>
+    <brand>Urban Decay</brand>
+    <category>Eyeshadow</category>
+  </object>
+  <object>
+    <productId>11</productId>
+    <name>Lash Sensational Mascara</name>
+    <description>Volumizing mascara that captures and coats every lash for a full fan effect.</description>
+    <brand>Maybelline</brand>
+    <category>Mascara</category>
+  </object>
+  <object>
+    <productId>12</productId>
+    <name>Matte Lipstick - Rebel Rose</name>
+    <description>Highly-pigmented matte lipstick with a comfortable, long-wearing formula.</description>
+    <brand>Revlon</brand>
+    <category>Lips</category>
+  </object>
+  <object>
+    <productId>13</productId>
+    <name>Hydrating Primer</name>
+    <description>A moisturizing face primer that preps the skin for makeup application while providing hydration.</description>
+    <brand>e.l.f. Cosmetics</brand>
+    <category>Primer</category>
+  </object>
+  <object>
+    <productId>14</productId>
+    <name>Fit Me Dewy + Smooth Foundation</name>
+    <description>Dewy foundation with SPF 18 that hydrates and smoothes skin texture for a luminous finish.</description>
+    <brand>Maybelline</brand>
+    <category>Foundation</category>
+  </object>
+  <object>
+    <productId>15</productId>
+    <name>Radiant Creamy Concealer</name>
+    <description>Buildable concealer that corrects, contours, highlights, and perfects for radiant skin.</description>
+    <brand>NARS Cosmetics</brand>
+    <category>Concealer</category>
+  </object>
+  <object>
+    <productId>16</productId>
+    <name>Fit Me Matte + Poreless Powder</name>
+    <description>Pressed powder that mattifies and sets makeup while blurring pores for a flawless finish.</description>
+    <brand>Maybelline</brand>
+    <category>Powder</category>
+  </object>
+  <object>
+    <productId>17</productId>
+    <name>Pro Contour Palette</name>
+    <description>All-in-one contour palette with six velvety powder shades for sculpting and defining facial features.</description>
+    <brand>LORAC Cosmetics</brand>
+    <category>Contour</category>
+  </object>
+  <object>
+    <productId>18</productId>
+    <name>Precisely, My Brow Pencil</name>
+    <description>Ultra-fine brow pencil with a spoolie brush for precise filling and shaping of eyebrows.</description>
+    <brand>Benefit Cosmetics</brand>
+    <category>Eyebrows</category>
+  </object>
+  <object>
+    <productId>19</productId>
+    <name>Modern Renaissance Eyeshadow Palette</name>
+    <description>An essential eyeshadow palette featuring 14 warm and neutral shades in matte and shimmer finishes.</description>
+    <brand>Anastasia Beverly Hills</brand>
+    <category>Eyeshadow</category>
+  </object>
+  <object>
+    <productId>20</productId>
+    <name>Hoola Matte Bronzer</name>
+    <description>Award-winning matte bronzer for a natural-looking tan and sculpted contour.</description>
+    <brand>Benefit Cosmetics</brand>
+    <category>Contour</category>
+  </object>
+  <object>
+    <productId>21</productId>
+    <name>Born This Way Foundation</name>
+    <description>Oil-free foundation infused with coconut water and hyaluronic acid for a natural, radiant finish.</description>
+    <brand>Too Faced</brand>
+    <category>Foundation</category>
+  </object>
+  <object>
+    <productId>22</productId>
+    <name>Mary Lou Manizer</name>
+    <description>Mary-Lou might not be innocent, but this shimmer sure is!</description>
+    <brand>theBalm</brand>
+    <category>Highlighter</category>
+  </object>
+  <object>
+    <productId>23</productId>
+    <name>Rimmel The Multi-Tasker Concealer</name>
+    <description>Introducing the new long- lasting Multi-Tasker concealer from Rimmel. Conceals blemishes, brightens dark circles and covers to even out skin tone.</description>
+    <brand>Rimmel London</brand>
+    <category>Concealer</category>
+  </object>
+  <object>
+    <productId>24</productId>
+    <name>Lip Pencil</name>
+    <description>A lip liner pencil in a wide range of colours designed for shaping, lining or filling in lips.</description>
+    <brand>MAC Cosmetics</brand>
+    <category>Lips</category>
+  </object>
+</data>

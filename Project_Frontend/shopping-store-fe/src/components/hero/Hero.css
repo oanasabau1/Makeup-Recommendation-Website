@@ -1,0 +1,43 @@
+.hero {
+  background-image: url('https://cdn.shopify.com/s/files/1/0245/4465/articles/cover-photo_1024x1024.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: rgb(251, 0, 126);
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif; 
+}
+
+.hero-content h1 {
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero-content button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: hotpink;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero-content button:hover {
+  background-color: rgb(255, 65, 160);
+}

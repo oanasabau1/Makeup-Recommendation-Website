@@ -1,0 +1,59 @@
+.update-review-page {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+}
+
+.update-review-page h1 {
+  margin-bottom: 20px;
+}
+
+.star-rating {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.star {
+  margin-right: 15px; 
+  cursor: pointer;
+}
+
+.star-icon {
+  color: yellow;
+  font-size: 32px; 
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: hotpink;
+  color: white;
+}
+
+.submit-button:hover {
+  background-color: hotpink;
+}
