@@ -1,8 +1,20 @@
 ## Makeup Recommendation Website
 
-Designed and developed a full-stack application for makeup product recommendations, implementing design patterns such as Factory and Builder, and email functionality via Java Mail. Implemented user authentication with two types of users (admins and clients). Admins can view and export statistics, manage makeup products, while clients can add, update, and delete their own reviews. Created a responsive and intuitive user interface with ReactJS, enabling seamless navigation and interaction for all user operations.
+I designed and built a full-stack web app that provides personalized makeup product recommendations. The project used design patterns like Factory and Builder to make sure the architecture was scalable, maintainable, and flexible. These patterns played a key role in developing the recommendation engine, allowing it to easily generate different makeup product options while keeping things open for future enhancements.
 
+For user communication, I integrated the Java Mail API to handle email notifications, which means users get personalized product recommendations, account updates, and other alerts right in their inbox. This helped make the app more interactive and engaging.
 
+I also implemented a solid user authentication system with two roles: admins and clients. The authentication was set up using secure methods to protect user data. Admins had access to advanced features like managing the entire product catalog, viewing stats on products and users, and exporting data in CSV, XML, or JSON format for deeper analysis. These tools were especially useful for tracking product performance and user engagement.
+
+Clients, on the other hand, could add, update, and delete reviews on makeup products. Each client had their own account where they could manage their reviews, making the experience more personalized.
+
+For the front-end, I used ReactJS to create a highly responsive and user-friendly interface. The design made it easy for users to navigate between different features like product browsing, managing reviews, and admin tasks. 
+
+On top of that, I built the app with future growth in mind, so it can easily handle new features like social media sharing, more advanced recommendation algorithms, or even new user roles like makeup artists or influencers. The back-end was designed to support an increasing number of users, ensuring that the app would remain fast and reliable as it scaled.
+
+The website not only provides a personalized experience for makeup enthusiasts but also gives admins useful insights into product trends and user behavior. 
+
+I have attached below some parts of the application that I've developed.
 
 ![Screenshot 2024-09-13 214444](https://github.com/user-attachments/assets/e126572e-ffa2-4d08-8c0b-a97d0db8483c)
 ![Screenshot 2024-09-13 214434](https://github.com/user-attachments/assets/60fb7eb2-47df-41ef-9b45-f3ff19f16f68)
